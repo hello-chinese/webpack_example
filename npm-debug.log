@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator.XQ-20160908SCOX\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'develop' ]
+2 info using npm@4.0.2
+3 info using node@v6.2.1
+4 verbose run-script [ 'predevelop', 'develop', 'postdevelop' ]
+5 info lifecycle webpack_example@1.0.0~predevelop: webpack_example@1.0.0
+6 silly lifecycle webpack_example@1.0.0~predevelop: no script for predevelop, continuing
+7 info lifecycle webpack_example@1.0.0~develop: webpack_example@1.0.0
+8 verbose lifecycle webpack_example@1.0.0~develop: unsafe-perm in lifecycle true
+9 verbose lifecycle webpack_example@1.0.0~develop: PATH: C:\Users\Administrator.XQ-20160908SCOX\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Users\Administrator.XQ-20160908SCOX\Desktop\webpack_example\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\VisualSVN Server\bin;D:\Git2.6.3\Git\cmd;C:\Program Files\nodejs;D:\Git2.6.3\bin;D:\Program Files\Java\jdk1.7.0_75\lib;D:\Program Files\Java\jdk1.7.0_75\jre\bin;D:\Sublime;C:\Users\Administrator.XQ-20160908SCOX\Desktop\Learning folder;C:\Users\Administrator.XQ-20160908SCOX\Desktop\Game folder;C:\Users\Administrator.XQ-20160908SCOX\Desktop\The browser;C:\Users\Administrator.XQ-20160908SCOX\Desktop\Other folder;C:\Users\Administrator.XQ-20160908SCOX\Desktop\work folder;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator.XQ-20160908SCOX\AppData\Roaming\npm;.;;.;
+10 verbose lifecycle webpack_example@1.0.0~develop: CWD: C:\Users\Administrator.XQ-20160908SCOX\Desktop\webpack_example
+11 silly lifecycle webpack_example@1.0.0~develop: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server  --config webpack.develop.config.js --devtool eval --progress --colors --hot --content-base src' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1007:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (C:\Users\Administrator.XQ-20160908SCOX\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Users\Administrator.XQ-20160908SCOX\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\Administrator.XQ-20160908SCOX\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:201:44)
+13 verbose cwd C:\Users\Administrator.XQ-20160908SCOX\Desktop\webpack_example
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Administrator.XQ-20160908SCOX\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "develop"
+16 error node v6.2.1
+17 error npm  v4.0.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
